@@ -66,7 +66,7 @@ namespace MyShop.DataInMemory
             return Products.AsQueryable();
         }
 
-        public void Detete(string id) {
+        public void Delete(string id) {
 
             Product product = Products.Find(x => x.Id == id);
 
